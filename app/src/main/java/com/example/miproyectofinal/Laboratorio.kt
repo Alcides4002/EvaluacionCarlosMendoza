@@ -10,7 +10,6 @@ import androidx.room.PrimaryKey
 
         @ColumnInfo(name = "nombre") var nombre:String,
         @ColumnInfo(name = "Descripcion") var  descripcion:String,
-        @ColumnInfo(name = "horarios") var horarios:String,
         @PrimaryKey(autoGenerate = true)
         val id:Int = 0
 

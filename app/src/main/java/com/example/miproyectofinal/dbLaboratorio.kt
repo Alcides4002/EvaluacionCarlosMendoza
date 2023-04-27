@@ -9,5 +9,6 @@ import androidx.room.RoomDatabase
 )
 abstract class  dbLaboratorio RoomDataBase() {
 abstract fun daoLaboratorio():DaoLaboratorio
+
 }
 
