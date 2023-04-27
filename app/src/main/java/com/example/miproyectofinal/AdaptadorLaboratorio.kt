@@ -43,7 +43,7 @@ class AdaptadorLaboratorio (
 
     inner class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
         var etNombre = itemView.findViewById<TextView>(R.id.etNombre)
-        var etDescripcion = itemView.findViewById<TextView>(R.id.et)
+        var etDescripcion = itemView.findViewById<TextView>(R.id.etDescripcion)
 
 
     }
